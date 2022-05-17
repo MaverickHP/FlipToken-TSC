@@ -323,7 +323,7 @@ contract FlipToken is IERC20, Ownable {
 	IRouter public uniswapV2Router;
 	address public immutable uniswapV2Pair;
 
-	string private constant _name =  "Flip Token";
+	string private constant _name =  "FlipToken";
 	string private constant _symbol = "FLIP";
 	uint8 private constant _decimals = 18;
 
